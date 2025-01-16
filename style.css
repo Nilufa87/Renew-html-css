@@ -5,11 +5,13 @@ body {
   font-family: "Playwrite NZ", serif;
   margin: 0px;
   padding: 0px;
-  background-image: url(Background.jpg);
+  
+
+  background: url(Background.jpg) no-repeat;
   width: 100%;
   color: white;
   height: 50%;
-  /* background-image: url(Bgpic.jpg.jpg); */
+  
 }
 
 .left {
@@ -196,7 +198,9 @@ body {
   margin-top: 18px;
   color: goldenrod;
 }
-
+.contact{
+  background-color: black;
+}
 
 .contact h1{
     margin-top: 450px;
@@ -266,6 +270,10 @@ body {
     text-align: center;
 }
 
+.schedule{
+  background-color: #052d2e;
+    height: 461px;
+}
 .schedule table {
     display: table; 
     width: 80%; 
@@ -286,7 +294,9 @@ body {
     margin-right: 701px;
   }
   
-  
+  .last{
+    background-color: rgb(46, 44, 42);
+  }
   .map{
     position: relative;
     text-align: right;
@@ -301,17 +311,21 @@ body {
     background: none !important;
     width: 600px;
     height: 400px;
+    /* background-color: black; */
   }
   .gmap_iframe {
     width: 600px !important;
     height: 400px !important;
   }
 
-  .copy{
-    margin-left: 1082px;
+  .copy p{
+    margin-left: 150px;
     margin-bottom: 10px;
-    margin-right: -716px;
+    /* margin-right: -716px; */
     background-color: black;
+    text-align: center;
   }
+
+  
 
 
